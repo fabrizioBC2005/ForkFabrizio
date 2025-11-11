@@ -23,8 +23,23 @@ const contributors = [
       "Apasionado por la tecnología y la enseñanza. Me encanta crear proyectos que ayuden a otros a aprender.",
     hobbies: ["Programación", "Open Source", "Github", "Gaming"],
   },
-  
-  
+
+  // ================= TEMPLATE PARA NUEVOS COLABORADORES =================
+  // Copia y pega este bloque dentro del array 'contributors' y reemplaza los valores:
+  /*
+  {
+    name: "Tu Nombre",
+    nickname: "TuUsuario",
+    github: "https://github.com/TuUsuario",
+    linkedin: "https://www.linkedin.com/in/tu-linkedin", // Opcional
+    instagram: "https://www.instagram.com/tu-instagram/", // Opcional
+    image: "https://github.com/TuUsuario.png", // Opcional - URL de imagen o usar avatar de GitHub
+    description:
+      "Breve descripción sobre ti.",
+    hobbies: ["Hobby1", "Hobby2", "Hobby3", "Hobby4"],
+  },
+  */
+  // ======================================================================
 ];
 
 // ⚠️ NO MODIFIQUES NADA DE AQUÍ HACIA ABAJO ⚠️
