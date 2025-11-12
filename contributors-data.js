@@ -34,7 +34,15 @@ const contributors = [
       "Me gusta arreglar cosas.",
     hobbies: ["Cyber", "Open Source", "Github", "IoT"],
   },
-
+  {
+    name: "Luzylay",
+    nickname: "Luzylay",
+    github: "https://github.com/luzylay",
+    image: "https://github.com/luzylay.png",
+    description:
+      "Me gusta arreglar cosasxd ",
+    hobbies: ["Cyber", "Open Source", "Github", "IoT"],
+  },
   // ================= TEMPLATE PARA NUEVOS COLABORADORES =================
   // Copia y pega este bloque dentro del array 'contributors' y reemplaza los valores:
   /*
