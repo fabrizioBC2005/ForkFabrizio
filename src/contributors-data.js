@@ -11,8 +11,8 @@
 // 3. Haz commit y pull request
 // 4. GitHub Actions regenerará este archivo automáticamente
 //
-// Última generación: 2025-11-14T03:13:31.990Z
-// Total de colaboradores: 4
+// Última generación: 2025-11-14T03:16:49.401Z
+// Total de colaboradores: 3
 // ============================================================================
 
 const contributors = [
@@ -29,19 +29,6 @@ const contributors = [
       "Open Source",
       "Github",
       "Gaming"
-    ]
-  },
-  {
-    "name": "Andres",
-    "nickname": "Jositas",
-    "github": "https://github.com/Jositas",
-    "image": "https://github.com/Jositas.png",
-    "description": "Agradable",
-    "hobbies": [
-      "Videojuegos",
-      "Cocina",
-      "Series",
-      "Pasear"
     ]
   },
   {
