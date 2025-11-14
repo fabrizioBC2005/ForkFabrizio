@@ -197,42 +197,43 @@ git branch</code></pre>
               </div>
             </div>
 
-            <!-- Paso 7: Editar Archivo -->
+            <!-- Paso 7: Crear Archivo JSON -->
             <div class="step">
               <div class="step-number">7</div>
               <div class="step-content">
-                <h3><i class="fas fa-edit"></i> Editar contributors-data.js</h3>
+                <h3><i class="fas fa-edit"></i> Crear tu Archivo JSON</h3>
                 <p>
-                  Ahora que estás en una nueva rama, edita el archivo <code>contributors-data.js</code>. 
-                  Agrega tu información: nombre, nickname, GitHub, LinkedIn, Instagram (opcionales), 
-                  imagen (puedes usar tu avatar de GitHub agregando .png), descripción y hasta 4 hobbies.
+                  Ahora que estás en una nueva rama, crea un archivo <code>tu-nickname.json</code> 
+                  dentro de la carpeta <code>contributors</code>. Agrega tu información: nombre, 
+                  nickname, GitHub, LinkedIn, Instagram (opcionales), imagen (puedes usar tu avatar 
+                  de GitHub agregando .png), descripción y hasta 4 hobbies.
                 </p>
                 <div class="step-image">
                   <img
                     src="../assets/guides-v2/Paso7.png"
-                    alt="Paso 7: Editar archivo"
+                    alt="Paso 7: Crear archivo JSON"
                     class="guide-image" />
                 </div>
-                <div class="code-example">
-                  <pre><code># Después de editar, verificar cambios
-git status
-
-# Deberías ver contributors-data.js modificado</code></pre>
-
-<div class="code-example">
-  <pre><code>{
-  name: "Tu Nombre",
-  nickname: "TuUsuario",
-  github: "https://github.com/TuUsuario",
-  linkedin: "https://www.linkedin.com/in/tu-linkedin", // Opcional
-  instagram: "https://www.instagram.com/tu-instagram/", // Opcional
-  image: "https://github.com/TuUsuario.png", // Opcional
-  description: "Breve descripción sobre ti.",
-  hobbies: ["Hobby1", "Hobby2", "Hobby3", "Hobby4"]
-},
-  </code></pre>
-</div>
+                <div class="info-box">
+                  <p>
+                    <i class="fas fa-info-circle"></i> Puedes encontrar el template en 
+                    <code>templates/contributor-template.json</code>. Recuerda que JSON no permite 
+                    comentarios, así que debes quitar las líneas con <code>//</code> del template.
+                  </p>
                 </div>
+                <div class="code-example">
+                  <pre><code>{
+  "name": "Tu Nombre",
+  "nickname": "TuUsuario",
+  "github": "https://github.com/TuUsuario",
+  "linkedin": "https://www.linkedin.com/in/tu-linkedin",
+  "instagram": "https://www.instagram.com/tu-instagram/",
+  "image": "https://github.com/TuUsuario.png",
+  "description": "Breve descripción sobre ti.",
+  "hobbies": ["Hobby1", "Hobby2", "Hobby3", "Hobby4"]
+}</code></pre>
+                </div>
+                
               </div>
             </div>
 
